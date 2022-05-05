@@ -1,0 +1,40 @@
+{% extends  'layout.html' %}
+
+
+{% block head %} 
+    <style>
+        body
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image:url({{ url_for('static', filename='images/bg2.png') }})
+        }  
+    </style>
+{% endblock %}
+
+{% block body %}
+    <div class="genpage">
+        <div class="logo">
+            Poetry Generator
+        </div>
+        <div class="menu">
+            <a href="/home" class="link4">
+                <div class="title">Home</div>
+            </a>
+            <a href="/about" class="link5">
+                <div class="title">About</div>
+            </a>
+            <a href="#" class="link6">
+                <div class="title">Contact</div>
+            </a>
+        </div>
+        <p class="title_about">About</p>
+        <p class="desc1">This poetry generator will randomly grab lines from Shakespeare's sonnets and poems to produce a completely new poem.</br></br>
+        This poetry generator uses Recurrent Neural Networks and Markov Chains in order to generate new verses in the style of the 
+        poems that it is given as input. The Markov Chains are used to build new sentences, while the Recurrent Neural Networks are 
+        used to predict the properties of the next line of the poem (e.g., number of syllables, rhyme scheme) such that an appropriate 
+        new sentence can be selected (from the sentences that were generated with Markovify). 
+        </p>
+    </div>
+
+{% endblock %}
