@@ -1,0 +1,37 @@
+{% extends  'layout.html' %}
+
+
+{% block head %} 
+    <style>
+        body
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image:url({{ url_for('static', filename='images/bg2.png') }})
+        }  
+    </style>
+{% endblock %}
+
+{% block body %} 
+    <div> 
+        <div class="logo">
+            Poetry Generator
+        </div>
+        <div class="menu">
+            <a href="/home" class="link1">
+                <div class="title">Home</div>
+            </a>
+            <a href="#" class="link2">
+                <div class="title">About</div>
+            </a>
+            <a href="#" class="link3">
+                <div class="title">Contact</div>
+            </a>
+        </div>
+    </div>
+    
+    <p class="title_1">Shakespearean</p>
+    <p class="title_2">Poetry Generator</p>
+    <p class="desc">This poetry generator will randomly grab lines from Shakespeare's sonnets and poems to produce a completely new poem.</p>
+    <button class="gen_btn" onclick="window.location.href ='/generate' ">Generate Poetry</button>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends  'layout.html' %}
+
+{% block head %} 
+    <style>
+        body
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url({{ url_for('static', filename='images/bg3.png') }})
+        }  
+    </style>
+{% endblock %}
+
+{% block body %}
+
+<div class="genpage">
+    <div class="logo">
+        Poetry Generator
+    </div>
+    <div class="menu">
+        <a href="/home" class="link1">
+            <div class="title">Home</div>
+        </a>
+        <a href="#" class="link2">
+            <div class="title">About</div>
+        </a>
+        <a href="#" class="link3">
+            <div class="title">Contact</div>
+        </a>
+    </div>
+    <p class="gen_poemLbl">Generated Poem</p>
+    <form action="/generate" method="post">
+        <textarea class="cont_area" id="text_file" name="text_file">Write something here</textarea>
+        <button type="submit" class="btn_generatepage">Generate Poetry</button>
+    </form>
+</div>
+
+{% endblock %}
+
+

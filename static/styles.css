@@ -1,0 +1,236 @@
+/*
+body{ 
+	background-image:url('images/bg2.png'); 
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+*/
+
+.mainpage{
+    margin: 0%;
+  }
+
+.genpage{
+    background-image: url("bg3.png");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title_1{
+    position: absolute;
+    width: 923px;
+    height: 0px;
+    left: 786px;
+    top: 256px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 144px;
+    display: flex;
+    align-items: center;
+
+    color: #3E2413;
+}
+
+.title_2{
+    position: absolute;
+    width: 581px;
+    height: 20px;
+    left: 908px;
+    top: 359px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+
+    color: #9C7C63;
+}
+
+.desc{
+    position: absolute;
+    width: 781px;
+    height: 130px;
+    left: 786px;
+    top: 526px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+
+    color: #3E2413;
+}
+
+.gen_btn{
+    position: absolute;
+    width: 337px;
+    height: 90px;
+    left: 1020px;
+    top: 747px;
+    margin: 0 auto;
+    padding-left: 19px;
+
+    background: #3E2413;
+    border-radius: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FDF5E0;
+}
+
+/* Navigation Bar CSS Properties */
+
+.logo {
+    position: absolute;
+    width: 664px;
+    height: 193px;
+    left: 150px;
+    top: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FDF5E0;
+}
+
+
+.link1 {
+    position: absolute;
+    width: 151px;
+    height: 93px;
+    left: 1253px;
+    top: 66px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #3E2413;
+
+}
+
+.link2 {
+    position: absolute;
+    width: 151px;
+    height: 93px;
+    left: 1416px;
+    top: 66px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #9C7C63;
+}
+
+.link3 {
+    position: absolute;
+    width: 151px;
+    height: 93px;
+    left: 1597px;
+    top: 66px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #9C7C63;
+}
+
+/* Generate Poem Page */
+
+.gen_poemLbl{
+    position: absolute;
+    width: 664px;
+    height: 130px;
+    left: 830px;
+    top: 170px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3E2413;
+}
+
+.btn_generatepage{
+    position: absolute;
+    width: 270px;
+    height: 70px;
+    left: 825px;
+    top: 813px;
+    margin: 0 auto;
+    padding-left: 37px;
+
+    background: #3E2413;
+    border-radius: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FDF5E0;
+
+}
+
+.cont_area{
+    position: absolute;
+    width: 862.6px;
+    height: 470px;
+    left: 529px;
+    top: 305px;
+
+}
