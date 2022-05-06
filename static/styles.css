@@ -187,8 +187,7 @@ body{
     width: 664px;
     height: 130px;
     left: 830px;
-    top: 170px;
-
+    top: 190px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -201,12 +200,31 @@ body{
     color: #3E2413;
 }
 
+.note{
+    position: absolute;
+    height: 130px;
+    left: 590px;
+    top: 250px;
+    opacity: 0.8;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3E2413;
+
+}
+
 .btn_generatepage{
     position: absolute;
     width: 270px;
     height: 70px;
     left: 825px;
-    top: 813px;
+    top: 850px;
     margin: 0 auto;
     padding-left: 37px;
 
@@ -231,8 +249,8 @@ body{
     width: 862.6px;
     height: 470px;
     left: 529px;
-    top: 305px;
-
+    top: 350px;
+    font-size: 20px;
 }
 
 /* About Page */
