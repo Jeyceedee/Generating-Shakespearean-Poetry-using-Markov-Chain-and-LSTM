@@ -1,0 +1,70 @@
+{% extends  'layout.html' %}
+
+{% block head %} 
+    <style>
+        body
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image:url({{ url_for('static', filename='images/bg2.png') }})
+        }  
+    </style>
+{% endblock %}
+
+{% block body %} 
+
+<div class="genpage">
+    <div class="logo">
+        Poetry Generator
+    </div>
+    <div class="menu">
+        <a href="/home" class="link7">
+            <div class="title">Home</div>
+        </a>
+        <a href="/about" class="link8">
+            <div class="title">About</div>
+        </a>
+        <a href="/contact" class="link9">
+            <div class="title">Contact</div>
+        </a>
+    </div>
+    
+    
+    <div class="contact-container">
+        <div class="contact-cont-header">
+            <h1>Get in Touch</h1>
+            <p class="contact-p">Have any question? Talk to one of these friendly developers right now.</p>
+            <p class="contact-p">Support is available Mon-Fri / 8AM-11AM & 1PM-5PM.</p>
+        </div>
+        <div class="adminpics">
+            <img class="img-profile" src="static/developers/carlo.jpg" alt="">
+            <img class="img-profile" src="static/developers/ramil.png" alt="">
+            <img class="img-profile" src="static/developers/april.jpg" alt="">
+            <img class="img-profile" src="static/developers/alex.jpg" alt="">
+        </div>
+        <div class="contact-icon-info">
+            <i class="">
+                <div class="contact-content">
+                    Text Us
+                </div>
+                <p class="contact-cont-content">+63-915-645-5327</p>
+            </i>
+            <i class="">
+                <div class="contact-content">
+                    Email Us
+                </div>
+                <p class="contact-cont-content">jhoncarlo.dichoso@tup.edu.ph</p>
+                <p class="contact-cont-content">ramil.cobillajr@tup.edu.ph</p>
+                <p class="contact-cont-content">aprilkate.pascual@tup.edu.ph</p>
+                <p class="contact-cont-content">alexandrebenedict.minon@tup.edu.ph</p>            
+            </i>
+            <i class="">
+                <div class="contact-content">
+                    Message Us
+                </div>
+                <a href="https://www.facebook.com/JhonCarlo24" class="contact-cont-content">
+                    <center>Team Leader <br>
+                    Jhon Carlo Dichoso  </center>         
+            </i>
+        </div>
+{% endblock %}

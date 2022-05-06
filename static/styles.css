@@ -1,6 +1,5 @@
-
-/*body{ 
-    font-family: 'Poppins';
+/*
+body{ 
 	background-image:url('images/bg2.png'); 
     height: 100%;
     width: 100%;
@@ -333,3 +332,140 @@
     color: #9C7C63;
 }
 
+/*contact page */
+.contact-cont-header h1{
+    font-size: 2vw;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    color:#3E2413;
+}
+
+.contact-cont-header h1::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    left: 35%;
+    bottom: -6px;
+    width: 30%;
+    height: 1.5px;
+    background-color:#3E2413;
+}
+
+.contact-p{
+    text-align: center;
+    margin-top: 2%;
+    color:#3E2413;
+}
+
+.contact-container{
+    max-width: 750px;
+    background: #f7edc7;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15%;
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3);
+}
+
+.adminpics{
+    padding: 5% 2% 5% 2%;
+}
+
+.img-profile{
+    border-radius: 50%;
+    width: 6rem;
+}
+
+.contacts-icon{
+    font-size: 35px;
+    color:#3E2413;
+    margin-right: 25px;
+}
+
+.contact-icon-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2% 2% 5% 2%;
+}
+
+.contact-content{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:#3E2413;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-cont-content{
+    font-size: 15px;
+    color:#9e7a62;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.link7 {
+    position: absolute;
+    width: 151px;
+    height: 93px;
+    left: 1253px;
+    top: 66px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #9C7C63;
+}
+
+.link8 {
+    position: absolute;
+    width: 151px;
+    height: 93px;
+    left: 1416px;
+    top: 66px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #9C7C63;
+}
+
+.link9 {
+    position: absolute;
+    width: 151px;
+    height: 93px;
+    left: 1597px;
+    top: 66px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+
+    color: #3E2413;
+}
