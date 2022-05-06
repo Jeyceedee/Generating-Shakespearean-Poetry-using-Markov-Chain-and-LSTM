@@ -74,7 +74,9 @@ def generate():
 def predict():
     modelData = request.get_data()
     
-
+@app.route("/about")
+def about():
+    return render_template('about.html')
 
 
 
