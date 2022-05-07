@@ -14,20 +14,8 @@
 {% block body %}
 
 <div class="genpage">
-    <div class="logo">
-        Poetry Generator
-    </div>
-    <div class="menu">
-        <a href="/home" class="link1">
-            <div class="title">Home</div>
-        </a>
-        <a href="/about" class="link2">
-            <div class="title">About</div>
-        </a>
-        <a href="/contact" class="link3">
-            <div class="title">Contact</div>
-        </a>
-    </div> 
+    {% include 'header.html' %}
+    <img class="book" src="/static/images/book.png">
     <p class="gen_poemLbl">Generated Poem</p>
     <p class='note'>Note: Make sure that there's no non-ASCII characters. The bigger the sample poetry is, the faster it generates</p>
     <form action="/generate" method="post">

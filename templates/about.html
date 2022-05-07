@@ -14,20 +14,7 @@
 
 {% block body %}
     <div class="genpage">
-        <div class="logo">
-            Poetry Generator
-        </div>
-        <div class="menu">
-            <a href="/home" class="link4">
-                <div class="title">Home</div>
-            </a>
-            <a href="/about" class="link5">
-                <div class="title">About</div>
-            </a>
-            <a href="/contact" class="link6">
-                <div class="title">Contact</div>
-            </a>
-        </div>
+        {% include 'header.html' %}
         <p class="title_about">About</p>
         <p class="desc1">This poetry generator will randomly grab lines from Shakespeare's sonnets and poems to produce a completely new poem.</br></br>
         This poetry generator uses Recurrent Neural Networks and Markov Chains in order to generate new verses in the style of the 

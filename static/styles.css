@@ -13,11 +13,32 @@ body{
   }
 
 .genpage{
-    background-image: url("bg3.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.image_logo{
+    position: absolute;
+    left: 1.61%;
+    right: 90.7%;
+    top: 3.52%;
+    bottom: 82.69%;
+    height: 150px;
+    width: 150px;
+    border-radius: 1000px;
+}
+
+.book{
+    position: absolute;
+    left: 82.86%;
+    right: 0.99%;
+    top: 62.69%;
+    bottom: 9.07%;
+
+    height: 310px;
+    width: 305px;
 }
 
 
@@ -105,7 +126,7 @@ body{
     position: absolute;
     width: 664px;
     height: 193px;
-    left: 150px;
+    left: 230px;
     top: 12px;
     font-family: 'Poppins';
     font-style: normal;
@@ -245,6 +266,7 @@ body{
 }
 
 .cont_area{
+    font-family: 'Poppins';
     position: absolute;
     width: 862.6px;
     height: 470px;
@@ -383,6 +405,7 @@ body{
     margin: auto;
     margin-top: 15%;
     margin-left: 50%;
+    font-family: 'Poppins';
     display: flex;
     flex-direction: column;
     align-items: center;
