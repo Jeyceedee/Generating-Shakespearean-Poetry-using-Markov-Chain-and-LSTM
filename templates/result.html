@@ -14,20 +14,7 @@
 
 {% block body %} 
     <div class="genpage">
-        <div class="logo">
-            Poetry Generator
-        </div>
-        <div class="menu">
-            <a href="/home" class="link1">
-                <div class="title">Home</div>
-            </a>
-            <a href="/menu" class="link2">
-                <div class="title">About</div>
-            </a>
-            <a href="/contact" class="link3">
-                <div class="title">Contact</div>
-            </a>
-        </div> 
+        {% include 'header.html' %}
         <p class="gen_poemLbl">Your artist poem</p>
         
         <textarea class="cont_area" id="artist_text" name="artist_text">{{ text_file }}</textarea>
