@@ -19,7 +19,7 @@
     <p class="gen_poemLbl">Generated Poem</p>
     <p class='note'>Note: Make sure that there's no non-ASCII characters. The bigger the sample poetry is, the faster it generates</p>
     <form action="/generate" method="post">
-        <textarea class="cont_area" id="text_file" name="text_file" placeholder="Paste your artist's poetry here"></textarea>
+        <textarea class="cont_area" id="text_file" name="text_file">{{ sample_text }}</textarea>
         <button type="submit" class="btn_generatepage">Generate Poetry</button>
     </form>
 </div>

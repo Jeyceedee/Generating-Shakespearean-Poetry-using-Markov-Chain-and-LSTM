@@ -64,15 +64,15 @@ def generate():
         #main(depth, train_mode)
         train_mode = False
         main(depth, train_mode)
-        
         with open('Shakespearean_poetry.txt') as f:
             f.seek(0)
             text_user = f.read()
-            
-
         return render_template('result.html', text_file=text_user)
     else:
-        return render_template('generatepage.html')
+        with open('shakespeare_sonnets.txt') as f:
+            f.seek(0)
+            sample_text = f.read()
+        return render_template('generatepage.html', sample_text = sample_text)
 
 @app.route('/predict', methods=["GET", 'POST'])
 def predict():

@@ -161,7 +161,7 @@ def compose_poetry(lines, rhyme_list, lyrics_file, model, numOfLines):
     starting_vectors = model.predict(np.array([starting_input]).flatten().reshape(1, 2, 2))
     poetry_vectors.append(starting_vectors)
     for i in range(numOfLines):
-        poetry_vectors.append(model.predict(np.array([poetry_vectors[-1]]).flatten().reshape(1, 2, 2).astype('float32')))
+        poetry_vectors.append(model.predict(np.array([poetry_vectors[-1]]).flatten().reshape(1, 2, 2).astype(np.float32)))
     return poetry_vectors
 
 def vectors_into_song(vectors, generated_lyrics, rhyme_list):
